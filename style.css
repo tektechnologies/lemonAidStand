@@ -1,0 +1,103 @@
+* {
+	/*   outline: 2px rebeccapurple dashed; */
+	clear: both;
+}
+body {
+	background-color: orange;
+	color: white;
+	background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+		linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+		linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+#container {
+	/*   margin-bottom: 550px; */
+	/*  margin: trbl; */
+	background-color: whitesmoke;
+	width: 80%;
+	margin: 20px auto;
+	color: blue;
+}
+
+.sectionBackground {
+	background-color: lawngreen;
+}
+
+h1 {
+	color: rgba(0, 0, 255, .8);
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+
+}
+
+nav li {
+	display: inline;
+	border-left: 2px solid rgb(67, 33, 219);
+}
+
+/*  h1 {
+  color: yellow;
+}
+ */
+
+nav li:last-of-type {
+	border-right: 2px solid rgb(67, 33, 219);
+}
+
+
+nav a {
+	color: rebeccapurple;
+	text-decoration: none;
+	padding: 15px;
+}
+
+img {
+	float: right;
+}
+
+#goLeft {
+	float: left;
+}
+
+
+/* from w3c website */
+
+
+main {
+	margin-bottom: 500px;
+}
+
+footer {
+	height: 200px;
+	width: 100%;
+	background-color: orange;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: fixed;
+
+}
+
+
+/* unvisited link */
+a:link {
+	color: red;
+}
+
+/* visited link */
+a:visited {
+	color: green;
+}
+
+/* mouse over link */
+a:hover {
+	color: hotpink;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+}
